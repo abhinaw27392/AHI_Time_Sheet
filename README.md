@@ -1,4 +1,4 @@
-﻿# AHI_Time_Sheet
+# AHI_Time_Sheet
 Steps to run this project:
 #step 1: clone/download this git repository
   >git clone https://github.com/abhinaw27392/AHI_Time_Sheet.git
