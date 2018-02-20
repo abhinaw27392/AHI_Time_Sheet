@@ -1,0 +1,218 @@
+2018-01-30 18:33:22,577 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 1516 (E:\project\AHI_Timesheet\backend\build\classes\java\main started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-01-30 18:33:22,579 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-01-30 18:33:22,581 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-01-30 18:33:38,080 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:57] Started AhiTsApplication in 17.631 seconds (JVM running for 20.6)
+2018-01-30 18:39:12,944 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 5280 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-01-30 18:39:12,954 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-01-30 18:39:12,960 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-01-30 18:43:11,973 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 5960 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-01-30 18:43:11,975 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-01-30 18:43:11,977 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-01-30 18:43:19,301 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:57] Started AhiTsApplication in 8.025 seconds (JVM running for 8.638)
+2018-01-31 18:06:56,838 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 4440 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-01-31 18:06:56,872 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-01-31 18:06:56,876 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-01-31 18:07:18,428 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:57] Started AhiTsApplication in 24.5 seconds (JVM running for 26.299)
+2018-01-31 18:08:20,558 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 14724 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-01-31 18:08:20,560 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-01-31 18:08:20,564 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-01-31 18:08:29,589 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:57] Started AhiTsApplication in 9.828 seconds (JVM running for 10.473)
+2018-01-31 18:10:01,662 DEBUG [http-nio-6090-exec-10] c.a.s.AuthenticationFailureHandler [SimpleUrlAuthenticationFailureHandler.java:76] No failure URL set, sending 401 Unauthorized error
+2018-01-31 18:10:07,654 DEBUG [http-nio-6090-exec-9] c.a.s.AuthenticationFailureHandler [SimpleUrlAuthenticationFailureHandler.java:76] No failure URL set, sending 401 Unauthorized error
+2018-01-31 18:12:43,567 DEBUG [http-nio-6090-exec-4] c.a.s.AuthenticationFailureHandler [SimpleUrlAuthenticationFailureHandler.java:76] No failure URL set, sending 401 Unauthorized error
+2018-01-31 18:14:50,439 DEBUG [http-nio-6090-exec-3] c.a.s.AuthenticationFailureHandler [SimpleUrlAuthenticationFailureHandler.java:76] No failure URL set, sending 401 Unauthorized error
+2018-01-31 18:14:51,962 DEBUG [http-nio-6090-exec-2] c.a.s.AuthenticationFailureHandler [SimpleUrlAuthenticationFailureHandler.java:76] No failure URL set, sending 401 Unauthorized error
+2018-01-31 18:14:52,801 DEBUG [http-nio-6090-exec-1] c.a.s.AuthenticationFailureHandler [SimpleUrlAuthenticationFailureHandler.java:76] No failure URL set, sending 401 Unauthorized error
+2018-01-31 18:17:54,749 DEBUG [http-nio-6090-exec-10] c.a.s.AuthenticationFailureHandler [SimpleUrlAuthenticationFailureHandler.java:76] No failure URL set, sending 401 Unauthorized error
+2018-01-31 18:29:13,511 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 10332 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-01-31 18:29:13,513 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-01-31 18:29:13,515 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-01-31 18:29:34,933 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 7264 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-01-31 18:29:34,935 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-01-31 18:29:34,938 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-01-31 18:30:05,468 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 5360 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-01-31 18:30:05,470 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-01-31 18:30:05,475 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-01-31 18:30:14,441 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:57] Started AhiTsApplication in 9.773 seconds (JVM running for 10.447)
+2018-01-31 18:30:34,217 DEBUG [http-nio-6090-exec-8] c.a.s.AuthenticationFailureHandler [SimpleUrlAuthenticationFailureHandler.java:76] No failure URL set, sending 401 Unauthorized error
+2018-01-31 18:31:41,180 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 14756 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-01-31 18:31:41,182 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-01-31 18:31:41,185 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-01-31 18:32:17,436 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 6572 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-01-31 18:32:17,438 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-01-31 18:32:17,441 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-01-31 18:32:26,871 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:57] Started AhiTsApplication in 10.234 seconds (JVM running for 10.908)
+2018-01-31 18:32:39,122 DEBUG [http-nio-6090-exec-10] c.a.s.AuthenticationFailureHandler [SimpleUrlAuthenticationFailureHandler.java:76] No failure URL set, sending 401 Unauthorized error
+2018-01-31 18:33:08,178 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 1188 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-01-31 18:33:08,180 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-01-31 18:33:08,189 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-01-31 18:33:50,963 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 13416 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-01-31 18:33:50,965 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-01-31 18:33:50,968 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-01-31 18:34:22,936 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 5572 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-01-31 18:34:22,938 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-01-31 18:34:22,941 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-01-31 18:34:31,472 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:57] Started AhiTsApplication in 9.327 seconds (JVM running for 9.98)
+2018-01-31 18:34:47,672 DEBUG [http-nio-6090-exec-10] c.a.s.AuthenticationFailureHandler [SimpleUrlAuthenticationFailureHandler.java:76] No failure URL set, sending 401 Unauthorized error
+2018-01-31 18:42:33,130 DEBUG [http-nio-6090-exec-6] c.a.s.AuthenticationFailureHandler [SimpleUrlAuthenticationFailureHandler.java:76] No failure URL set, sending 401 Unauthorized error
+2018-01-31 18:42:45,683 DEBUG [http-nio-6090-exec-8] c.a.s.AuthenticationFailureHandler [SimpleUrlAuthenticationFailureHandler.java:76] No failure URL set, sending 401 Unauthorized error
+2018-01-31 18:45:22,846 DEBUG [http-nio-6090-exec-1] c.a.s.AuthenticationFailureHandler [SimpleUrlAuthenticationFailureHandler.java:76] No failure URL set, sending 401 Unauthorized error
+2018-01-31 18:51:35,313 DEBUG [http-nio-6090-exec-2] c.a.s.AuthenticationFailureHandler [SimpleUrlAuthenticationFailureHandler.java:76] No failure URL set, sending 401 Unauthorized error
+2018-01-31 18:51:38,195 DEBUG [http-nio-6090-exec-4] c.a.s.AuthenticationFailureHandler [SimpleUrlAuthenticationFailureHandler.java:76] No failure URL set, sending 401 Unauthorized error
+2018-01-31 18:57:27,073 DEBUG [http-nio-6090-exec-1] c.a.s.AuthenticationFailureHandler [SimpleUrlAuthenticationFailureHandler.java:76] No failure URL set, sending 401 Unauthorized error
+2018-01-31 19:14:03,805 DEBUG [http-nio-6090-exec-9] c.a.s.AuthenticationFailureHandler [SimpleUrlAuthenticationFailureHandler.java:76] No failure URL set, sending 401 Unauthorized error
+2018-01-31 19:14:40,506 DEBUG [http-nio-6090-exec-2] c.a.s.AuthenticationFailureHandler [SimpleUrlAuthenticationFailureHandler.java:76] No failure URL set, sending 401 Unauthorized error
+2018-01-31 19:14:44,574 DEBUG [http-nio-6090-exec-4] c.a.s.AuthenticationFailureHandler [SimpleUrlAuthenticationFailureHandler.java:76] No failure URL set, sending 401 Unauthorized error
+2018-01-31 19:16:08,881 DEBUG [http-nio-6090-exec-5] c.a.s.AuthenticationFailureHandler [SimpleUrlAuthenticationFailureHandler.java:76] No failure URL set, sending 401 Unauthorized error
+2018-01-31 19:18:03,274 DEBUG [http-nio-6090-exec-6] c.a.s.AuthenticationFailureHandler [SimpleUrlAuthenticationFailureHandler.java:76] No failure URL set, sending 401 Unauthorized error
+2018-01-31 19:18:13,734 DEBUG [http-nio-6090-exec-7] c.a.s.AuthenticationFailureHandler [SimpleUrlAuthenticationFailureHandler.java:76] No failure URL set, sending 401 Unauthorized error
+2018-01-31 19:20:23,835 DEBUG [http-nio-6090-exec-8] c.a.s.AuthenticationFailureHandler [SimpleUrlAuthenticationFailureHandler.java:76] No failure URL set, sending 401 Unauthorized error
+2018-01-31 19:21:37,568 DEBUG [http-nio-6090-exec-9] c.a.s.AuthenticationFailureHandler [SimpleUrlAuthenticationFailureHandler.java:76] No failure URL set, sending 401 Unauthorized error
+2018-01-31 19:21:41,478 DEBUG [http-nio-6090-exec-10] c.a.s.AuthenticationFailureHandler [SimpleUrlAuthenticationFailureHandler.java:76] No failure URL set, sending 401 Unauthorized error
+2018-01-31 19:22:11,808 DEBUG [http-nio-6090-exec-3] c.a.s.AuthenticationFailureHandler [SimpleUrlAuthenticationFailureHandler.java:76] No failure URL set, sending 401 Unauthorized error
+2018-01-31 20:27:43,085 DEBUG [http-nio-6090-exec-1] c.a.s.AuthenticationFailureHandler [SimpleUrlAuthenticationFailureHandler.java:76] No failure URL set, sending 401 Unauthorized error
+2018-01-31 20:28:54,054 DEBUG [http-nio-6090-exec-2] c.a.s.AuthenticationFailureHandler [SimpleUrlAuthenticationFailureHandler.java:76] No failure URL set, sending 401 Unauthorized error
+2018-01-31 20:45:55,851 DEBUG [http-nio-6090-exec-1] c.a.s.AuthenticationFailureHandler [SimpleUrlAuthenticationFailureHandler.java:76] No failure URL set, sending 401 Unauthorized error
+2018-01-31 20:46:39,968 DEBUG [http-nio-6090-exec-7] c.a.s.AuthenticationFailureHandler [SimpleUrlAuthenticationFailureHandler.java:76] No failure URL set, sending 401 Unauthorized error
+2018-01-31 20:47:05,704 DEBUG [http-nio-6090-exec-2] c.a.s.AuthenticationFailureHandler [SimpleUrlAuthenticationFailureHandler.java:76] No failure URL set, sending 401 Unauthorized error
+2018-02-01 12:16:31,577 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 12696 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-02-01 12:16:31,626 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-02-01 12:16:31,639 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-02-01 12:16:48,695 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:57] Started AhiTsApplication in 20.651 seconds (JVM running for 23.03)
+2018-02-02 11:34:33,783 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 14112 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-02-02 11:34:33,811 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-02-02 11:34:33,822 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-02-02 11:34:53,966 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:57] Started AhiTsApplication in 23.873 seconds (JVM running for 26.389)
+2018-02-02 13:04:30,271 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 5028 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-02-02 13:04:30,273 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-02-02 13:04:30,275 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-02-02 13:04:38,147 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:57] Started AhiTsApplication in 8.573 seconds (JVM running for 9.165)
+2018-02-02 16:08:30,647 DEBUG [http-nio-6090-exec-3] c.a.s.AuthenticationFailureHandler [SimpleUrlAuthenticationFailureHandler.java:76] No failure URL set, sending 401 Unauthorized error
+2018-02-02 16:08:31,537 DEBUG [http-nio-6090-exec-2] c.a.s.AuthenticationFailureHandler [SimpleUrlAuthenticationFailureHandler.java:76] No failure URL set, sending 401 Unauthorized error
+2018-02-02 16:08:39,179 DEBUG [http-nio-6090-exec-1] c.a.s.AuthenticationFailureHandler [SimpleUrlAuthenticationFailureHandler.java:76] No failure URL set, sending 401 Unauthorized error
+2018-02-02 16:08:39,496 DEBUG [http-nio-6090-exec-4] c.a.s.AuthenticationFailureHandler [SimpleUrlAuthenticationFailureHandler.java:76] No failure URL set, sending 401 Unauthorized error
+2018-02-02 16:08:40,345 DEBUG [http-nio-6090-exec-5] c.a.s.AuthenticationFailureHandler [SimpleUrlAuthenticationFailureHandler.java:76] No failure URL set, sending 401 Unauthorized error
+2018-02-02 16:09:06,395 DEBUG [http-nio-6090-exec-6] c.a.s.AuthenticationFailureHandler [SimpleUrlAuthenticationFailureHandler.java:76] No failure URL set, sending 401 Unauthorized error
+2018-02-02 16:23:31,580 DEBUG [http-nio-6090-exec-7] c.a.s.AuthenticationFailureHandler [SimpleUrlAuthenticationFailureHandler.java:76] No failure URL set, sending 401 Unauthorized error
+2018-02-02 16:24:15,324 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 16096 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-02-02 16:24:15,326 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-02-02 16:24:15,328 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-02-02 16:24:22,650 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:57] Started AhiTsApplication in 8.033 seconds (JVM running for 8.633)
+2018-02-02 16:35:00,559 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 8816 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-02-02 16:35:00,561 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-02-02 16:35:00,563 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-02-02 16:35:08,527 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:57] Started AhiTsApplication in 8.757 seconds (JVM running for 9.412)
+2018-02-02 19:59:39,336 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 14308 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-02-02 19:59:39,364 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-02-02 19:59:39,367 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-02-02 19:59:47,972 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:57] Started AhiTsApplication in 9.354 seconds (JVM running for 9.95)
+2018-02-05 12:18:58,912 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 17356 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-02-05 12:18:58,939 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-02-05 12:18:58,942 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-02-05 12:21:12,493 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 6948 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-02-05 12:21:12,495 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-02-05 12:21:12,497 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-02-05 12:23:14,381 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 6128 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-02-05 12:23:14,613 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-02-05 12:23:14,616 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-02-05 12:24:53,135 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 15104 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-02-05 12:24:53,137 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-02-05 12:24:53,139 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-02-05 12:25:00,943 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:57] Started AhiTsApplication in 8.505 seconds (JVM running for 9.129)
+2018-02-05 12:30:07,362 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 11444 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-02-05 12:30:07,364 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-02-05 12:30:07,367 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-02-05 12:30:15,244 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:57] Started AhiTsApplication in 8.602 seconds (JVM running for 9.208)
+2018-02-05 12:46:07,227 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 12616 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-02-05 12:46:07,231 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-02-05 12:46:07,233 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-02-05 12:46:15,122 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:57] Started AhiTsApplication in 8.594 seconds (JVM running for 9.219)
+2018-02-06 12:56:25,448 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 17356 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-02-06 12:56:25,484 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-02-06 12:56:25,489 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-02-06 12:57:36,643 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:57] Started AhiTsApplication in 74.742 seconds (JVM running for 77.19)
+2018-02-08 10:37:33,566 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 14828 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-02-08 10:37:33,601 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-02-08 10:37:33,605 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-02-08 10:37:43,036 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:57] Started AhiTsApplication in 10.783 seconds (JVM running for 12.186)
+2018-02-09 11:47:38,169 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 7488 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-02-09 11:47:38,249 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-02-09 11:47:38,290 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-02-09 11:48:29,612 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:57] Started AhiTsApplication in 64.006 seconds (JVM running for 71.539)
+2018-02-09 11:59:03,490 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 13160 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-02-09 11:59:03,491 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-02-09 11:59:03,494 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-02-09 11:59:13,156 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:57] Started AhiTsApplication in 10.438 seconds (JVM running for 11.115)
+2018-02-09 12:16:47,052 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 11020 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-02-09 12:16:47,055 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-02-09 12:16:47,058 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-02-09 12:16:55,323 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:57] Started AhiTsApplication in 8.943 seconds (JVM running for 9.531)
+2018-02-09 12:38:53,308 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 1252 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-02-09 12:38:53,310 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-02-09 12:38:53,313 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-02-09 12:39:01,318 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:57] Started AhiTsApplication in 8.692 seconds (JVM running for 9.276)
+2018-02-09 14:33:17,821 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 8536 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-02-09 14:33:17,824 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-02-09 14:33:17,827 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-02-09 14:33:25,580 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:57] Started AhiTsApplication in 8.433 seconds (JVM running for 9.015)
+2018-02-09 15:59:02,366 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 2520 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-02-09 15:59:02,369 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-02-09 15:59:02,371 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-02-09 15:59:10,405 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:57] Started AhiTsApplication in 8.737 seconds (JVM running for 9.339)
+2018-02-09 16:46:11,482 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 15804 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-02-09 16:46:11,484 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-02-09 16:46:11,486 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-02-09 16:46:20,441 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:57] Started AhiTsApplication in 9.655 seconds (JVM running for 10.244)
+2018-02-12 12:52:23,129 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 5580 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-02-12 12:52:23,142 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-02-12 12:52:23,145 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-02-12 12:52:47,291 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:57] Started AhiTsApplication in 26.893 seconds (JVM running for 28.419)
+2018-02-12 15:06:13,000 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 14288 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-02-12 15:06:13,002 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-02-12 15:06:13,006 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-02-12 15:06:21,306 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:57] Started AhiTsApplication in 9.05 seconds (JVM running for 9.64)
+2018-02-12 15:11:41,349 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 8240 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-02-12 15:11:41,352 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-02-12 15:11:41,355 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-02-12 15:11:49,734 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:57] Started AhiTsApplication in 9.106 seconds (JVM running for 9.704)
+2018-02-12 15:20:23,555 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 8592 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-02-12 15:20:23,558 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-02-12 15:20:23,561 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-02-12 15:20:31,701 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:57] Started AhiTsApplication in 8.82 seconds (JVM running for 9.411)
+2018-02-12 15:30:57,424 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 11832 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-02-12 15:30:57,426 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-02-12 15:30:57,428 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-02-12 15:31:05,646 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:57] Started AhiTsApplication in 8.922 seconds (JVM running for 9.707)
+2018-02-12 15:40:17,851 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 14324 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-02-12 15:40:17,854 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-02-12 15:40:17,856 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-02-12 15:40:26,093 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:57] Started AhiTsApplication in 8.914 seconds (JVM running for 9.506)
+2018-02-12 15:55:17,372 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 12424 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-02-12 15:55:17,375 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-02-12 15:55:17,378 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-02-12 15:55:26,041 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:57] Started AhiTsApplication in 9.344 seconds (JVM running for 10.364)
+2018-02-12 16:23:13,520 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 11036 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-02-12 16:23:13,523 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-02-12 16:23:13,526 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-02-12 16:23:21,969 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:57] Started AhiTsApplication in 9.3 seconds (JVM running for 9.892)
+2018-02-13 11:11:08,702 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 4568 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-02-13 11:11:08,719 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-02-13 11:11:08,722 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-02-13 11:11:30,235 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:57] Started AhiTsApplication in 24.576 seconds (JVM running for 26.054)
+2018-02-15 12:41:06,188 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 21088 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-02-15 12:41:06,205 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-02-15 12:41:06,224 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-02-15 12:41:21,674 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:57] Started AhiTsApplication in 17.897 seconds (JVM running for 19.29)
+2018-02-20 11:44:00,807 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 5828 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-02-20 11:44:00,829 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-02-20 11:44:00,831 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-02-20 11:44:10,762 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:57] Started AhiTsApplication in 11.198 seconds (JVM running for 12.386)
+2018-02-20 11:50:47,687 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 7212 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-02-20 11:50:47,689 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-02-20 11:50:47,692 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-02-20 11:50:56,061 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:57] Started AhiTsApplication in 9.067 seconds (JVM running for 9.81)
+2018-02-20 11:57:34,266 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:48] Starting AhiTsApplication on DESKTOP-C3R79RJ with PID 3232 (E:\project\AHI_Timesheet\backend\build\libs\backend.jar started by abhinaw in E:\project\AHI_Timesheet\backend)
+2018-02-20 11:57:34,269 DEBUG [main] c.a.AhiTsApplication [StartupInfoLogger.java:51] Running with Spring Boot v2.0.0.M7, Spring v5.0.2.RELEASE
+2018-02-20 11:57:34,271 INFO [main] c.a.AhiTsApplication [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2018-02-20 11:57:42,645 INFO [main] c.a.AhiTsApplication [StartupInfoLogger.java:57] Started AhiTsApplication in 9.246 seconds (JVM running for 9.832)
+2018-02-20 11:57:55,293 DEBUG [http-nio-6090-exec-9] c.a.s.AuthenticationFailureHandler [SimpleUrlAuthenticationFailureHandler.java:76] No failure URL set, sending 401 Unauthorized error
