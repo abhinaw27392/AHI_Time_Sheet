@@ -2,97 +2,98 @@ import React, { Component } from 'react';
 import { Table } from 'react-bootstrap';
 import { Field, reduxForm } from 'redux-form';
 import { connect } from 'react-redux';
+import Time from 'react-time'
 
-// import { postInputData } from './timesheetAction'
+import './timesheet.css'
 
-class TimesheetHome extends React.Component {
-  render() {
+const submit = (values) => {
+  console.log("form data is:")
+  console.log(values)
+}
 
-    // const { submitting } = this.props;
 
-    return (
-      <form>
-        <Table responsive bordered condensed hover className="input-width" type="number">
-          <thead>
-            <tr>
-              <th>Work Type</th>
-              <th>06-02-2018</th>
-              <th>07-02-2018</th>
-              <th>08-02-2018</th>
-              <th>09-02-2018</th>
-              <th>10-02-2018</th>
-              <th>11-02-2018</th>
-              <th>12-02-2018</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><div className="workType-width">Type 1</div></td>
-              <td><Field name="a1" type="number" component="input" required className="input-width" /></td>
-              <td><Field name="b1" type="number" component="input" required className="input-width" /></td>
-              <td><Field name="c1" type="number" component="input" required className="input-width" /></td>
-              <td><Field name="d1" type="number" component="input" required className="input-width" /></td>
-              <td><Field name="e1" type="number" component="input" required className="input-width" /></td>
-              <td><Field name="f1" type="number" component="input" required className="input-width" /></td>
-              <td><Field name="g1" type="number" component="input" required className="input-width" /></td>
-            </tr>
-            <tr>
-              <td><div className="workType-width">Type 2</div></td>
-              <td><Field name="a2" type="number" component="input" required className="input-width" /></td>
-              <td><Field name="b2" type="number" component="input" required className="input-width" /></td>
-              <td><Field name="c2" type="number" component="input" required className="input-width" /></td>
-              <td><Field name="d2" type="number" component="input" required className="input-width" /></td>
-              <td><Field name="e2" type="number" component="input" required className="input-width" /></td>
-              <td><Field name="f2" type="number" component="input" required className="input-width" /></td>
-              <td><Field name="g2" type="number" component="input" required className="input-width" /></td>
-            </tr>
-            <tr>
-              <td><div className="workType-width">Type 3</div></td>
-              <td><Field name="a3" type="number" component="input" className="input-width" /></td>
-              <td><Field name="b3" type="number" component="input" className="input-width" /></td>
-              <td><Field name="c3" type="number" component="input" className="input-width" /></td>
-              <td><Field name="d3" type="number" component="input" className="input-width" /></td>
-              <td><Field name="e3" type="number" component="input" className="input-width" /></td>
-              <td><Field name="f3" type="number" component="input" className="input-width" /></td>
-              <td><Field name="g3" type="number" component="input" className="input-width" /></td>
-            </tr>
-            <tr>
-              <td><div className="workType-width">Type 4</div></td>
-              <td><Field name="a4" type="number" component="input" className="input-width" /></td>
-              <td><Field name="b4" type="number" component="input" className="input-width" /></td>
-              <td><Field name="c4" type="number" component="input" className="input-width" /></td>
-              <td><Field name="d4" type="number" component="input" className="input-width" /></td>
-              <td><Field name="e4" type="number" component="input" className="input-width" /></td>
-              <td><Field name="f4" type="number" component="input" className="input-width" /></td>
-              <td><Field name="g4" type="number" component="input" className="input-width" /></td>
-            </tr>
-            <tr>
-              <td><div className="workType-width">Type 5</div></td>
-              <td><Field name="a5" type="number" component="input" className="input-width" /></td>
-              <td><Field name="b5" type="number" component="input" className="input-width" /></td>
-              <td><Field name="c5" type="number" component="input" className="input-width" /></td>
-              <td><Field name="d5" type="number" component="input" className="input-width" /></td>
-              <td><Field name="e5" type="number" component="input" className="input-width" /></td>
-              <td><Field name="f5" type="number" component="input" className="input-width" /></td>
-              <td><Field name="g5" type="number" component="input" className="input-width" /></td>
-            </tr>
-          </tbody>
-        </Table>
-        {/* <button type="submit" disabled={submitting} className="btn btn-primary">Submit</button> */}
-      </form>
-    );
+const TimesheetHome = ({ handleSubmit }) => {
 
+  //-----------------------------------------date and prevDates-------------------------------------------
+  let dates = [];
+  let prevDay = "";
+  let type1 = []; let type2 = []; let type3 = []; let type4 = []; let type5 = [];
+
+  for (let i = 90; i >= 0; i--) {
+    prevDay = new Date(new Date().setDate(new Date().getDate() - i));
+    dates.push(prevDay);
+    type1.push("a" + i); type2.push("b" + i); type3.push("c" + i); type4.push("d" + i); type5.push("e" + i);
   }
+
+  console.log("dates are #####################################");
+  console.log(dates);
+
+  //-------------------------------------------------------------------------------------------------------
+  return (
+    <form onSubmit={handleSubmit(submit)}>
+      <Table responsive bordered condensed hover  type="number">
+        <thead >
+          <tr >
+            <th><div className="leftShift">>>></div></th>
+            {dates.map(function (date) {
+              return <th ><Time value={date} format="DD-MM-YYYY" className="workType-width"/></th>
+            }
+            )}
+            <th>>>></th>
+          </tr>
+        </thead>
+        <tbody >
+          <tr>
+            <td><div className="workType-width">Type 1</div></td>
+            {type1.map(function (name1) {
+              return <td ><Field name={name1} className="workType-width" type="number" component="input" /></td>
+            }
+            )}
+          </tr>
+          <tr>
+            <td><div className="workType-width">Type 2</div></td>
+            {type2.map(function (name2) {
+              return <td><Field name={name2} type="number" component="input" className="workType-width"/></td>
+            }
+            )}
+          </tr>
+          <tr>
+            <td><div className="workType-width">Type 3</div></td>
+            {type3.map(function (name3) {
+              return <td><Field name={name3} type="number" component="input" className="workType-width"/></td>
+            }
+            )}
+          </tr>
+          <tr>
+            <td><div className="workType-width">Type 4</div></td>
+            {type4.map(function (name4) {
+              return <td><Field name={name4} type="number" component="input" className="workType-width"/></td>
+            }
+            )}
+          </tr>
+          <tr>
+            <td><div className="workType-width">Type 5</div></td>
+            {type5.map(function (name5) {
+              return <td><Field name={name5} type="number" component="input" className="workType-width"/></td>
+            }
+            )}
+          </tr>
+        </tbody>
+      </Table><br />
+      <button type="submit" className="btn btn-primary submitbtn">Submit</button>
+    </form>
+  );
 }
 
 // Decorate the form component
-const TimesheetHome1 = reduxForm({
+const TimesheetHome1 = reduxForm({        
   form: 'editForm'
 })(TimesheetHome)
 
-// const mapStateToProps = state => {
-//   return state;
+// const mapStateToProps = (state) => {
+//   return postDataReducer(state, action); //-------------------------------------------
 // }
 
-// const TimesheetHome2 = connect(mapStateToProps, { submitting: postInputData })(TimesheetHome1);
+// const TimesheetHome2 = connect(mapStateToProps)(TimesheetHome1);
+
 export default TimesheetHome1; 
