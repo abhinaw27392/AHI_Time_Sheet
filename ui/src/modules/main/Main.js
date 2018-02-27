@@ -4,10 +4,9 @@ import { Switch, Route } from 'react-router-dom'
 
 // import local
 import Authorization from '../common/hoc/Authorization'
-import { Home } from '../home/Home'
+import Home  from '../home/Home'
 
 import TimesheetHome1 from '../timesheet/TimesheetHome' //--------------------------added
-
 import ManagerHome from '../manager/ManagerHome'
 import AdminHome from '../admin/AdminHome'
 // import TimesheetHome  from '../timesheet/TimesheetHome'
@@ -34,3 +33,18 @@ export const Main = () =>
       </Switch>
     </main>
   )
+
+
+
+// export const Main = () =>
+
+//   (
+//     <main>
+//       <Switch>
+//         <Route path='/app/manager' component={ManagerHome} />
+//         <Route path='/app/admin' component={AdminHome} />
+//         <Route path='/app/timesheet' component={TimesheetHome1} />
+//         <Route exact path='/app' component={Home} />
+//       </Switch>
+//     </main>
+//   )
