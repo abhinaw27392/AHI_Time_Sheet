@@ -15,31 +15,56 @@ const submit = (values) => {
 const TimesheetHome = ({ handleSubmit }) => {
 
   //-----------------------------------------date and prevDates-------------------------------------------
+
   let dates = [];
   let prevDay = "";
   let type1 = []; let type2 = []; let type3 = []; let type4 = []; let type5 = [];
 
-  for (let i = 90; i >= 0; i--) {
+  let ctr = "";
+  for (let i = 13; i >= 0; i--) {
     prevDay = new Date(new Date().setDate(new Date().getDate() - i));
     dates.push(prevDay);
     type1.push("a" + i); type2.push("b" + i); type3.push("c" + i); type4.push("d" + i); type5.push("e" + i);
+    ctr++;
   }
+  console.log("counter is:");
+  console.log(ctr);
 
-  console.log("dates are #####################################");
-  console.log(dates);
+  function displayDates() {
+    console.log("displaydate is executing#############################");
+    dates.length = 0;
+    type1 = []; type2 = []; type3 = []; type4 = []; type5 = [];
+    let j = ctr;
+    
+    for (let i = j + 13; i >= j; i--) {
+      console.log(i);
+      prevDay = new Date(new Date().setDate(new Date().getDate() - i));
+      dates.push(prevDay); 
+      type1.push("a" + i); type2.push("b" + i); type3.push("c" + i); type4.push("d" + i); type5.push("e" + i);
+      ctr++;
+    }
+    
+    console.log("dates are #####################################");
+    console.log(dates);
+  }
+  
+
+
+  // console.log("dates are #####################################");
+  // console.log(dates);
 
   //-------------------------------------------------------------------------------------------------------
   return (
     <form onSubmit={handleSubmit(submit)}>
-      <Table responsive bordered condensed hover  type="number">
+      <Table responsive bordered condensed hover type="number">
         <thead >
           <tr >
-            <th><div className="leftShift">>>></div></th>
+            <th><button className="leftShift btn btn-primary" onClick={displayDates} >>>></button></th>
             {dates.map(function (date) {
-              return <th ><Time value={date} format="DD-MM-YYYY" className="workType-width"/></th>
+              return <th ><Time value={date} format="DD-MM-YYYY" className="workType-width" /></th>
             }
             )}
-            <th>>>></th>
+            <th><button className="btn btn-primary" >>>></button></th>
           </tr>
         </thead>
         <tbody >
@@ -53,28 +78,28 @@ const TimesheetHome = ({ handleSubmit }) => {
           <tr>
             <td><div className="workType-width">Type 2</div></td>
             {type2.map(function (name2) {
-              return <td><Field name={name2} type="number" component="input" className="workType-width"/></td>
+              return <td><Field name={name2} type="number" component="input" className="workType-width" /></td>
             }
             )}
           </tr>
           <tr>
             <td><div className="workType-width">Type 3</div></td>
             {type3.map(function (name3) {
-              return <td><Field name={name3} type="number" component="input" className="workType-width"/></td>
+              return <td><Field name={name3} type="number" component="input" className="workType-width" /></td>
             }
             )}
           </tr>
           <tr>
             <td><div className="workType-width">Type 4</div></td>
             {type4.map(function (name4) {
-              return <td><Field name={name4} type="number" component="input" className="workType-width"/></td>
+              return <td><Field name={name4} type="number" component="input" className="workType-width" /></td>
             }
             )}
           </tr>
           <tr>
             <td><div className="workType-width">Type 5</div></td>
             {type5.map(function (name5) {
-              return <td><Field name={name5} type="number" component="input" className="workType-width"/></td>
+              return <td><Field name={name5} type="number" component="input" className="workType-width" /></td>
             }
             )}
           </tr>
@@ -86,14 +111,10 @@ const TimesheetHome = ({ handleSubmit }) => {
 }
 
 // Decorate the form component
-const TimesheetHome1 = reduxForm({        
+const TimesheetHome1 = reduxForm({
   form: 'editForm'
 })(TimesheetHome)
 
-// const mapStateToProps = (state) => {
-//   return postDataReducer(state, action); //-------------------------------------------
-// }
 
-// const TimesheetHome2 = connect(mapStateToProps)(TimesheetHome1);
 
 export default TimesheetHome1; 

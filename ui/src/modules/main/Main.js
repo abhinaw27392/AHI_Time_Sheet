@@ -21,30 +21,30 @@ const Employee = Authorization(EMPLOYEE_ROLE)
 const Manager = Authorization(MANAGER_ROLE)
 const Admin = Authorization(ADMIN_ROLE)
 
-export const Main = () =>
-
-  (
-    <main>
-      <Switch>
-        <Route path='/app/manager' component={Manager(ManagerHome)} />
-        <Route path='/app/admin' component={Admin(AdminHome)} />
-        <Route path='/app/timesheet' component={Employee(TimesheetHome1)} />
-        <Route exact path='/app' component={Home} />
-      </Switch>
-    </main>
-  )
-
-
-
 // export const Main = () =>
 
 //   (
 //     <main>
 //       <Switch>
-//         <Route path='/app/manager' component={ManagerHome} />
-//         <Route path='/app/admin' component={AdminHome} />
-//         <Route path='/app/timesheet' component={TimesheetHome1} />
+//         <Route path='/app/manager' component={Manager(ManagerHome)} />
+//         <Route path='/app/admin' component={Admin(AdminHome)} />
+//         <Route path='/app/timesheet' component={Employee(TimesheetHome1)} />
 //         <Route exact path='/app' component={Home} />
 //       </Switch>
 //     </main>
 //   )
+
+
+
+export const Main = () =>
+
+  (
+    <main>
+      <Switch>
+        <Route path='/app/manager' component={ManagerHome} />
+        <Route path='/app/admin' component={AdminHome} />
+        <Route path='/app/timesheet' component={TimesheetHome1} />
+        <Route exact path='/app' component={Home} />
+      </Switch>
+    </main>
+  )
