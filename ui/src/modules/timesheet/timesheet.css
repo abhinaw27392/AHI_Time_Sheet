@@ -9,3 +9,6 @@
     transform: rotate(180deg);
     text-align: center;
 }
+th, td {
+    text-align: center;
+}

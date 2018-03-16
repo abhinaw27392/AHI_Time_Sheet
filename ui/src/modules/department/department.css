@@ -1,0 +1,26 @@
+.ahi-department-form{
+    width:50%;
+    margin-left: 25%;
+    margin-right:25%
+}
+.ahi-department-name {
+
+}
+.ahi-department-desc {
+
+}
+.ahi-department-headed-by {
+
+}
+h1 {
+    text-align: center;
+}
+.submitbtn {
+    margin-left: 45%;
+}
+.newbutton{
+    float:right;
+}
+.danger {
+    background: #8B0000;
+}

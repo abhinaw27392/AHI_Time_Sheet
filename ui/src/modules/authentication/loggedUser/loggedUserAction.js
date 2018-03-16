@@ -28,7 +28,7 @@ export function requestFetch() {
 }
 
 export function receiveFetch(userData) {
-  console.log("userData : "+userData);
+  // console.log("userData : "+userData);
   return {
     type: FETCH_SUCCESS,
     pending: false,

@@ -1,7 +1,7 @@
-import { FORM_REQUEST, FORM_SUBMITTED, SUBMIT_FAILURE } from './timesheetAction'
+import { FORM_REQUEST, FORM_SUBMITTED, SUBMIT_FAILURE } from './employeeAction'
 import { combineReducers } from 'redux'
 
-const timesheet = (state = {
+const employee = (state = {
     isFetching: false
 }, action) => {
     switch (action.type) {
@@ -15,12 +15,12 @@ const timesheet = (state = {
 }
 
 export const getPropsMap = (state, reducer) => {
-    const props = state['timesheetReducer'];
+    const props = state['employeeReducer'];
     if (props === null) return null;
     return props[reducer];
 }
 
-const timesheetReducer = combineReducers({
-    timesheet
+const employeeReducer = combineReducers({
+    employee
 })
-export default timesheetReducer
+export default employeeReducer

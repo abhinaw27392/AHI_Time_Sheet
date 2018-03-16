@@ -1,10 +1,5 @@
 import { postApi } from "../common/api"
 
-export let dates = []; export let prevDay = "";
-export let type1 = []; export let type2 = []; export let type3 = [];
-export let type4 = []; export let type5 = [];
-export let ctr = 0;
-
 export const FORM_REQUEST = 'FORM_REQUEST'
 export const FORM_SUBMITTED = 'FORM_SUBMITTED'
 export const SUBMIT_FAILURE = 'SUBMIT_FAILURE'
@@ -32,17 +27,21 @@ export function submitError(message) {
     }
 }
 
-export function timesheetSubmit(formData) {
+export function empSubmit(formData) {
     let data = new FormData();
 
-    data.append('name1', formData.name1);
-    data.append('name2', formData.name2);
-
+    // data.append('name', formData.name);
+    // data.append('disc', formData.disc);
+    // data.append('dept', formData.dept);
+    // data.append('headed_by', formData.headed_by);
+    // data.append('isCompleted', formData.isCompleted);
+    // data.append('startDate', formData.startDate);
+    
     return dispatch => {
         dispatch(requestFormData(formData))
 
         return postApi({
-            url: '/timesheet/formsubmitted',
+            url: '/employee/formsubmitted',
             dispatch,
             data,
             successCallBack: receiveFormData,
@@ -51,18 +50,4 @@ export function timesheetSubmit(formData) {
     }
 }
 
-export function displayDates() {
-    dates.length = 0;
-    type1 = []; type2 = []; type3 = []; type4 = []; type5 = [];
-    let j = ctr;
-    if (ctr <= 20) {
-        for (let i = j + 6; i >= j; i--) {
-            prevDay = new Date(new Date().setDate(new Date().getDate() - i));
-            dates.push(prevDay);
-            type1.push("a" + i); type2.push("b" + i); type3.push("c" + i); type4.push("d" + i); type5.push("e" + i);
-            ctr++;
-        }
-    }
-    return dates;
-}
 

@@ -5,12 +5,12 @@ import { Switch, Route } from 'react-router-dom'
 // import local
 import Authorization from '../common/hoc/Authorization'
 import Home  from '../home/Home'
-
-import TimesheetHome1 from '../timesheet/TimesheetHome' //--------------------------added
+import TimesheetHome from '../timesheet/TimesheetHome' 
 import ManagerHome from '../manager/ManagerHome'
 import AdminHome from '../admin/AdminHome'
-// import TimesheetHome  from '../timesheet/TimesheetHome'
+import Department from '../department/department'
 
+//import css
 import './Main.css';
 
 export const EMPLOYEE_ROLE = [{ 'group': 'USER' }, { 'group': 'MANAGER' }, { 'group': 'ADMIN' }];
@@ -28,13 +28,13 @@ const Admin = Authorization(ADMIN_ROLE)
 //       <Switch>
 //         <Route path='/app/manager' component={Manager(ManagerHome)} />
 //         <Route path='/app/admin' component={Admin(AdminHome)} />
-//         <Route path='/app/timesheet' component={Employee(TimesheetHome1)} />
+//         <Route path='/app/timesheet' component={Employee(TimesheetHome)} />
 //         <Route exact path='/app' component={Home} />
 //       </Switch>
 //     </main>
 //   )
 
-
+ 
 
 export const Main = () =>
 
@@ -43,7 +43,8 @@ export const Main = () =>
       <Switch>
         <Route path='/app/manager' component={ManagerHome} />
         <Route path='/app/admin' component={AdminHome} />
-        <Route path='/app/timesheet' component={TimesheetHome1} />
+        {/* <Route path='/app/department' component={ Department } /> */}
+        <Route path='/app/timesheet' component={TimesheetHome} />
         <Route exact path='/app' component={Home} />
       </Switch>
     </main>

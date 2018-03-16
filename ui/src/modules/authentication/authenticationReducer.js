@@ -9,8 +9,8 @@ const authenticationReducer = combineReducers({
   loggedUser  
 })
 
-export const getPropsMap = (state, reducer) => {
-  const props = state['authenticationReducer']; //--------------------------------------------------------
+export const  getPropsMap = (state, reducer) => {
+  const props = state['authenticationReducer']; 
   if(props === null) return null;
   return props[reducer];
 }

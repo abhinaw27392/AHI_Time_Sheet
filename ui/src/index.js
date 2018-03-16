@@ -27,9 +27,9 @@ render(
     <Provider store={configureStore()}>
         <BrowserRouter basename="/ahits" >
             <Switch>
-                {/* <Route path="/auth" component={UnauthorizedRoute} /> */}
+                {/* <Route path="/auth" component={UnauthorizedRoute} />  */}
                 {/* <AuthorizedRoute path="/app" component={App} /> */}
-                <Route path="/app" component={App} />  {/*---------------------------------added----------------------------------*/}
+                <Route path="/app" component={App} />  
                 <Redirect to="/app" />
             </Switch>
         </BrowserRouter>
