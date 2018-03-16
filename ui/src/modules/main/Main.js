@@ -19,8 +19,8 @@ export const ADMIN_ROLE = [{ 'group': 'ADMIN' }];
 
 const Employee = Authorization(EMPLOYEE_ROLE)
 const Manager = Authorization(MANAGER_ROLE)
-const Admin = Authorization(ADMIN_ROLE)
-
+const Admin = Authorization(ADMIN_ROLE) 
+//kjyugjyftytr
 // export const Main = () =>
 
 //   (
