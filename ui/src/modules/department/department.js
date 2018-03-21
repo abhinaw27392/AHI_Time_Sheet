@@ -7,6 +7,7 @@ import { connect } from 'react-redux'
 //import third-party
 import { Alert, Button, Col, Form, FormControl, FormGroup, Table, Nav, NavItem, Navbar, ModalDialog } from 'react-bootstrap'
 import { DropdownButton, MenuItem, ButtonToolbar, ControlLabel } from "react-bootstrap";
+
 // import Dialog from 'react-bootstrap-dialog'
 import { Switch, Route, Link } from 'react-router-dom'
 import Dialog from 'react-dialog'
@@ -39,7 +40,6 @@ class Department extends React.Component {
         let nameInput, descInput, headed_byInput;
         return (
 
-
             <div>
                 {this.state.isShowPage && <h1>Department</h1>}
 
@@ -53,7 +53,6 @@ class Department extends React.Component {
                             modal={true}
                             onClose={this.handleClose}
                         >
-
                             <div>
                                 <h1>Add New Department</h1>
                                 <Form className="ahi-department-form" onSubmit={(e) => {
