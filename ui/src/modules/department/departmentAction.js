@@ -1,8 +1,9 @@
 import { postApi } from "../common/api"
 
-export const FORM_REQUEST = 'FORM_REQUEST'
-export const FORM_SUBMITTED = 'FORM_SUBMITTED'
-export const SUBMIT_FAILURE = 'SUBMIT_FAILURE'
+
+export const FORM_REQUEST = 'FORM_REQUEST_DEPT'
+export const FORM_SUBMITTED = 'FORM_SUBMITTED_DEPT'
+export const SUBMIT_FAILURE = 'SUBMIT_FAILURE_DEPT'
 
 export function requestFormData(formData) {
     return {
@@ -45,6 +46,11 @@ export function departmentSubmit(formData) {
             failureCallback: submitError
         });
     }
+}
+
+export function addNewDept() {
+    console.log("new button");
+    
 }
 
 

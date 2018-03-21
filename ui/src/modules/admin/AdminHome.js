@@ -7,8 +7,8 @@ import { Switch, Route, Link } from 'react-router-dom'
 //import local
 import DepartmentHome from '../department/department'
 import ProjectHome from '../project/project'
-import Employee from '../employee/employee'
-import Tasks from '../tasks/tasks'
+import EmployeeHome from '../employee/employee'
+import TasksHome from '../tasks/tasks'
 
 
 class AdminHome extends React.Component {
@@ -34,8 +34,8 @@ class AdminHome extends React.Component {
 
         <Route path={`${match.url}/department`} component={DepartmentHome} />
         <Route path={`${match.url}/project`} component={ProjectHome} />
-        <Route path={`${match.url}/employee`} component={Employee} />
-        <Route path={`${match.url}/tasks`} component={Tasks} />
+        <Route path={`${match.url}/employee`} component={EmployeeHome} />
+        <Route path={`${match.url}/tasks`} component={TasksHome} />
       </div>
     );
   }

@@ -5,9 +5,9 @@ export let type1 = []; export let type2 = []; export let type3 = [];
 export let type4 = []; export let type5 = [];
 export let ctr = 0;
 
-export const FORM_REQUEST = 'FORM_REQUEST'
-export const FORM_SUBMITTED = 'FORM_SUBMITTED'
-export const SUBMIT_FAILURE = 'SUBMIT_FAILURE'
+export const FORM_REQUEST = 'FORM_REQUEST_TS'
+export const FORM_SUBMITTED = 'FORM_SUBMITTED_TS'
+export const SUBMIT_FAILURE = 'SUBMIT_FAILURE_TS'
 
 export function requestFormData(formData) {
     return {

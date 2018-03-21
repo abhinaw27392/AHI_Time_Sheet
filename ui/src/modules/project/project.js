@@ -66,9 +66,9 @@ class Project extends React.Component {
                                             (ref) => { nameInput = ref }
                                         }>
                                             <option value="select" >select</option>
-                                            <option value="HR">type 1</option>
-                                            <option value="IT">type 2</option>
-                                            <option value="Finance">type 3</option>
+                                            <option value="type 1">type 1</option>
+                                            <option value="type 2">type 2</option>
+                                            <option value="type 3">type 3</option>
                                         </FormControl>
                                     </FormGroup>
                                 </td>
@@ -97,9 +97,9 @@ class Project extends React.Component {
                                             (ref) => { deptInput = ref }
                                         }>
                                             <option value="select" >select</option>
-                                            <option value="HR">dept 1</option>
-                                            <option value="IT">dept 2</option>
-                                            <option value="Finance">dept 3</option>
+                                            <option value="dept 1">dept 1</option>
+                                            <option value="dept 2">dept 2</option>
+                                            <option value="dept 3">dept 3</option>
                                         </FormControl>
                                     </FormGroup>
                                 </td>

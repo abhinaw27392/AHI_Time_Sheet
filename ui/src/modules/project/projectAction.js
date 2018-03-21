@@ -1,8 +1,8 @@
 import { postApi } from "../common/api"
 
-export const FORM_REQUEST = 'FORM_REQUEST'
-export const FORM_SUBMITTED = 'FORM_SUBMITTED'
-export const SUBMIT_FAILURE = 'SUBMIT_FAILURE'
+export const FORM_REQUEST = 'FORM_REQUEST_PROJECT'
+export const FORM_SUBMITTED = 'FORM_SUBMITTED_PROJECT'
+export const SUBMIT_FAILURE = 'SUBMIT_FAILURE_PROJECT'
 
 export function requestFormData(formData) {
     return {

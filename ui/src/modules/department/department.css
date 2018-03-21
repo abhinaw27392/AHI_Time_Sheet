@@ -15,7 +15,7 @@
 h1 {
     text-align: center;
 }
-.submitbtn {
+.addBtn {
     margin-left: 45%;
 }
 .newbutton{
@@ -23,4 +23,13 @@ h1 {
 }
 .danger {
     background: #8B0000;
+}
+.container {
+    margin-left: 50%;
+}
+.closeBtn {
+    margin-left: 20%;
+}
+.display {
+    display: inline;
 }

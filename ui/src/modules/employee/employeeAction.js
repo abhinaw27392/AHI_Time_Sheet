@@ -1,8 +1,8 @@
 import { postApi } from "../common/api"
 
-export const FORM_REQUEST = 'FORM_REQUEST'
-export const FORM_SUBMITTED = 'FORM_SUBMITTED'
-export const SUBMIT_FAILURE = 'SUBMIT_FAILURE'
+export const FORM_REQUEST = 'FORM_REQUEST_EMP'
+export const FORM_SUBMITTED = 'FORM_SUBMITTED_EMP'
+export const SUBMIT_FAILURE = 'SUBMIT_FAILURE_EMP'
 
 export function requestFormData(formData) {
     return {
@@ -30,13 +30,15 @@ export function submitError(message) {
 export function empSubmit(formData) {
     let data = new FormData();
 
-    // data.append('name', formData.name);
-    // data.append('disc', formData.disc);
-    // data.append('dept', formData.dept);
-    // data.append('headed_by', formData.headed_by);
-    // data.append('isCompleted', formData.isCompleted);
-    // data.append('startDate', formData.startDate);
-    
+    data.append('ename', formData.ename);
+    data.append('joiningDate', formData.joiningDate);
+    data.append('projectAssigned', formData.projectAssigned);
+    data.append('supervisor', formData.supervisor);
+    data.append('resourceType', formData.resourceType);
+    data.append('workLocation', formData.workLocation);
+    data.append('terminationDate', formData.terminationDate);
+    data.append('dept', formData.dept);
+
     return dispatch => {
         dispatch(requestFormData(formData))
 
